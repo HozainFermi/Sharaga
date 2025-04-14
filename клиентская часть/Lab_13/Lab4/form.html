@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Форма:</h1>
+    <div class="container">
+
+        <form action="" method="get" class="forma">
+        <div id="anketa">Заполните анкету</div>
+
+        <div id="name"><p>Имя:</p></div>
+        <input type="text" name="name" id="nameinput" required />
+
+        <div id="sex"><p>Пол:</p></div>
+        <div id="sex_selector">
+            <input type="radio" id="man" name="drone" value="man" />
+            <label for="huey">Мужской</label>
+            <input type="radio" id="woman" name="drone" value="woman" />
+            <label for="huey">Женский</label>
+          </div>
+
+        <div id="education"><p>Образование:</p></div>
+        <select name="educ" id="education_selector">
+            <option value="sred">Среднее Образование</option>
+            <option value="prof">Среднее профессиональное</option>
+            <option value="height">Высшее образование</option>
+          </select>
+
+        <div id="lang"><p>Какие языки программирования Вы знаете:</p></div> 
+        <div id="lang_selector">
+            <input type="checkbox" id="C#" name="C#" checked />
+            <label for="C#">C#</label>
+            <input type="checkbox" id="Java" name="Java" checked />
+            <label for="Java">Java</label>
+            <input type="checkbox" id="C++" name="C++" checked />
+            <label for="C++">C++</label>
+        </div>
+
+        <div id="mail"><p>Введите свою почту:</p></div> 
+        <div id="mailinput">
+            <input type="email" id="email" pattern=".+@mail\.ru" size="30" required />
+        </div>
+
+        <div id="comment"><p>Ваш комментарий:</p></div>   
+        <div id="comment_field">
+            <input type="text" id="textfield">
+        </div>
+        
+        <div id="buttons">
+            <input type="submit" value="Отправить" />
+            <input type="reset" value="Отмена" />
+        </div>
+
+        </form>
+        </div>
+        
+    </div>
+</body>
+</html>

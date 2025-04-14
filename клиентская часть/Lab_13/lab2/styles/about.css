@@ -1,0 +1,106 @@
+body{
+    margin:0;
+    padding: 0;
+    background-image: url('/lab2/content/5_asfasw112.jpg');
+    background-size: 1980px 1080px; /* Масштабирование изображения */
+    background-position: center; /* Позиционирование изображения */
+    background-repeat: no-repeat; /* Запрет повторения изображения */
+}
+header{
+    display: flex;
+    gap: 1em;
+    color: #70a3e0;
+    background-image: linear-gradient(to right, #440088 , #5f0e84 70%),
+    linear-gradient(to right, #c8428b , #a859cd),
+    linear-gradient(to right, #4c7db8 , #e02f90);
+
+}
+a:visited{
+    color:#70a3e0 ;
+}
+a:link{
+    color:#70a3e0 ;
+}
+
+header div{
+    
+ display: block;
+ position: relative;
+ top: 5px;
+ text-align: center;
+ flex: 0.1;
+ width: 5em;
+ height: 2em;
+ 
+}
+.head_button{
+  position: relative;
+}
+
+.head_button::after{
+
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 85.624%;
+    width: 100%;
+    border-radius: 0px;
+    background-image:linear-gradient(to bottom right, #2f7de3, #e100ff);
+    z-index: -1;
+}
+
+.head_button:hover{
+    z-index: 0;
+}
+
+
+
+ #main{
+    
+ }
+.main_h{
+display: flex;
+flex-direction: column;
+justify-content: center;
+justify-items: center;
+align-items: center;
+
+background-image: linear-gradient(90deg, #e70e82, #9e4ac5); /* Градиент */
+    -webkit-background-clip: text; /* Обрезаем фон по тексту */
+    background-clip: text; /* Обрезаем фон по тексту */
+    color: transparent; /* Делаем текст прозрачным */
+
+}
+
+ #divcont_1{
+display: flex;
+position: relative;
+flex-direction: row;
+justify-content: center;
+padding-left: 2em;
+border: thick double rgb(156, 40, 223);
+color: #f0f0f0;
+border-radius: 100px;
+ }
+#content_1{
+    margin-left: 2em;
+}
+
+ #divcont_2{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 4em;
+    border: 4mm ridge rgba(46, 161, 214, 0.89);
+
+ }
+ #divcont_3{
+    color: white;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+padding-left: 4em;
+border: 1rem solid rgb(42, 190, 141);
+ }

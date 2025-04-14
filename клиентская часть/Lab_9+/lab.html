@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Непосещенные ссылки */
+        a:link {
+          color: rgb(189, 62, 7); 
+          text-decoration: none; /* Убираем подчеркивание */
+        }
+    
+        /* Посещенные ссылки */
+        a:visited {
+          color: rgb(219, 200, 28); 
+        }
+
+      </style>
+
+</head>
+<body bgcolor="grey" text="white">
+
+    <p>использование тега p </p>
+    <br>
+    <span>использование span</span>
+    <hr />
+    <h1>использование h1</h1>
+    <h2>использование h2</h2>
+    <h3>использование h3</h3>
+    <h4>использование h4</h4>
+    <h5>использование h5</h5>
+    <h6>использование h6</h6>
+    <b>использование тега b</b>
+    <br>
+    <i>использование тега i</i>
+    <br>
+    <u>использование тега u</u>
+    <br>
+
+    <p>Тег p создаёт абзац текста, br добавляет новую строку ↑</p>
+    <br>
+    <div style="height: 40px; width: 40px; background-color: blueviolet;"></div>
+    <br>
+    <span style="background: gold;">↑ div — блочный элемент для создания крупных структур.<br>span — строчный элемент для работы с небольшими частями текста или контента. </span>
+    <br>
+    <img src="html-5.png" width="50px" height="50px"  />
+    <br>
+    <a href="index2.html">ссылка на другой документ</a>
+    <br>
+    <a href="https://e.mail.ru/inbox?utm_source=portal&utm_medium=portal_navigation_under_search_exp&utm_campaign=e.mail.ru&mt_link_id=jlsxn4&mt_sub1=id.mail.ru&mt_sub3=110546969&mt_sub4=413305">ссылка на email</a>
+    <hr>
+    <form>
+    <ol type="a" start="11">
+        <li>Зима</li>
+        <li>Весна</li>
+        <li>Лето
+            <ul style="list-style: square;">
+                <li>Июнь</li>
+                <li>Июль</li>
+                <li>Август</li>
+            </ul>
+        </li>
+        <li>Осень</li>
+    </ol>
+
+    <!--таблица-->
+    <table border="1px">
+        
+        <tbody>
+            <tr>
+                <td style="padding-left: 35px; padding-top: 40px;"></td>
+                <td style="padding-left: 35px; padding-top: 40px;" rowspan="2"></td>
+                <td style="padding-left: 35px; padding-top: 40px;"></td>
+                <td style="padding-left: 35px; padding-top: 40px;"></td>
+                <td style="padding-left: 35px; padding-top: 40px;"></td>
+                <td style="padding-left: 35px; padding-top: 40px;"></td>
+            </tr>
+            <tr>
+                <td style="padding-left: 35px; padding-top: 40px;"></td>
+                <td style="padding-left: 35px; padding-top: 40px;" colspan="2"></td>
+                <td style="padding-left: 35px; padding-top: 40px;" rowspan="2"></td>
+                <td style="padding-left: 35px; padding-top: 40px;"></td>
+                
+            </tr>
+            <tr>
+                <td style="padding-left: 35px; padding-top: 40px;"></td>
+                <td style="padding-left: 35px; padding-top: 40px;"></td>
+                <td style="padding-left: 35px; padding-top: 40px;"></td>
+                <td style="padding-left: 35px; padding-top: 40px;"></td>
+                <td style="padding-left: 35px; padding-top: 40px;"></td>        
+            </tr>
+        </tbody>
+    </table>
+<br>
+
+<textarea cols="23" rows="5">
+Города: Омск,
+Новосибирск, Томск
+</textarea>
+
+<div style="margin-top: 10px;">
+<div>
+    <input type="checkbox"  />
+    <label>Омск</label>
+</div>
+<div>
+    <input type="checkbox" checked />
+    <label>Новосибирск</label>
+</div>
+
+<div>
+    <input type="checkbox" />
+    <label>Томск</label>
+</div>
+</div>
+<br>
+
+
+<input type="file" />
+
+<div style="display: flex; flex-direction: column; gap: 80px;">
+<select style="width: 110px; margin-top:20px;">
+    <option value="Omsk">Омск</option>
+    <option value="Novosibirsk" selected>Новосибирск</option>
+    <option value="Tomsk">Томск</option>
+</select>
+
+<div>
+<input type="submit" value="Отправить" />
+<input type="reset" value="Сбросить" />
+</div>
+
+</div>
+
+</form>
+</body>
+</html>

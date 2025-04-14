@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var car = new Object()
+        car.price = "1000000$"
+        car.mark = "IBM"
+        car.model = "Deep blue"
+
+        function myFunction(){
+            document.getElementById("text").innerText="Модель:"+car.model+" Производитель:"+car.mark+" Цена:"+car.price
+        }
+        
+    </script>
+    <p id="text">Здесь будет информация, нажмите на кнопку ↓ （︶^︶）</p>
+    <button onclick=myFunction()>Click me</button>
+</body>
+</html>

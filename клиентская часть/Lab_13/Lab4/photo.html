@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фотогалерея</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        h3{
+            text-align: center;
+            color: #333;
+        }
+        .gallery {
+            display: table;
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .gallery-row {
+            display: table-row;
+        }
+        .gallery-cell {
+            display: table-cell;
+            padding: 10px;
+            text-align: center;
+        }
+        .gallery img {
+            width: 150px;
+            height: auto;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+            transition: transform 0.3s ease;
+        }
+        .gallery img:hover {
+            transform: scale(1.1);
+            border-color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <h1>Фотогалерея</h1>
+    <h3><a href="media.html">Медиа контент</a></h3>
+    <div class="gallery">
+        <div class="gallery-row">
+            <div class="gallery-cell">
+                <a href="/lab2/content/images (1).jpg" target="_blank">
+                    <img src="/lab2/content/images (1).jpg" alt="Изображение 1">
+                </a>
+            </div>
+            <div class="gallery-cell">
+                <a href="/lab2/content/images.jpg" target="_blank">
+                    <img src="/lab2/content/images.jpg" alt="Изображение 2">
+                </a>
+            </div>
+            <div class="gallery-cell">
+                <a href="/lab2/content/kartinki-dlya-fona-priroda-2.jpg" target="_blank">
+                    <img src="/lab2/content/kartinki-dlya-fona-priroda-2.jpg" alt="Изображение 3">
+                </a>
+            </div>
+        </div>
+        <div class="gallery-row">
+            <div class="gallery-cell">
+                <a href="/lab2/content/priroda-rassvet-1-1.webp" target="_blank">
+                    <img src="/lab2/content/priroda-rassvet-1-1.webp" alt="Изображение 4">
+                </a>
+            </div>
+            <div class="gallery-cell">
+                <a href="/lab2/content/scrapper.jpg" target="_blank">
+                    <img src="/lab2/content/scrapper.jpg" alt="Изображение 5">
+                </a>
+            </div>
+            <div class="gallery-cell">
+                <a href="/lab2/content/Crazy_Frog.jpg" target="_blank">
+                    <img src="/lab2/content/Crazy_Frog.jpg" alt="Изображение 6">
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

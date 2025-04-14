@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Аудио и Видео</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1,h3 {
+            text-align: center;
+            color: #333;
+        }
+        .media-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        audio, video {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Аудио и Видео</h1>
+    <h3><a href="form.html">Форма</a></h3>
+    <div class="media-container">
+        <h2>Аудио</h2>
+        <audio controls>
+            <source src="/Lab4/Iogann_SHtraus-otec_-_Marsh_Radeckogo_68517135.mp3" type="audio/mpeg">
+            Ваш браузер не поддерживает аудио элемент.
+        </audio>
+
+        <h2>Видео</h2>
+        <video controls>
+            <source src="/Lab4/sample-10s.mp4" type="video/mp4">
+            Ваш браузер не поддерживает видео элемент.
+        </video>
+    </div>
+</body>
+</html>

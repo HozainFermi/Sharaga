@@ -1,0 +1,101 @@
+body{
+    margin:0;
+    padding: 0;
+    background-image: linear-gradient(to top left,  #1274a8 , #9e1385 )
+    ;
+    background-repeat: no-repeat;
+    
+    
+}
+header{
+    display: flex;
+    gap: 1em;
+    color: #70a3e0;
+    background-image: linear-gradient(to right, #440088 , #5f0e84 70%),
+    linear-gradient(to right, #c8428b , #a859cd),
+    linear-gradient(to right, #4c7db8 , #e02f90);
+
+}
+a:visited{
+    color: #d8e2df;
+    text-decoration: none;
+}
+a:link{
+    color: #d8e2df;
+    text-decoration: none;
+}
+
+header div{
+    
+ display: block;
+ position: relative;
+ top: 5px;
+ text-align: center;
+ flex: 0.1;
+ width: 5em;
+ height: 2em;
+ 
+}
+.head_button{
+  position: relative;
+}
+
+.head_button::after{
+
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 85.624%;
+    width: 100%;
+    border-radius: 0px;
+    background-image:linear-gradient(to bottom right, #2f7de3, #e100ff);
+    z-index: -1;
+}
+
+.head_button:hover{
+    z-index: 0;
+}
+
+
+
+ #main{
+    
+ }
+.main_h{
+display: flex;
+flex-direction: column;
+justify-content: center;
+justify-items: center;
+align-items: center;
+
+background-image: linear-gradient(90deg, #d8e2df, #6a8398); /* Градиент */
+    -webkit-background-clip: text; /* Обрезаем фон по тексту */
+    background-clip: text; /* Обрезаем фон по тексту */
+    color: transparent; /* Делаем текст прозрачным */
+
+}
+
+ img {
+    max-width: 100%;
+    display: block;
+ }
+
+ .wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+    
+    gap: 1rem;
+    margin-top: 3rem;
+ }
+
+ .box{
+    color: #d8e2df;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding:1rem;
+    text-align: center;
+    display: grid;
+    grid-template-rows: subgrid;
+    grid-row:span 3;
+ }

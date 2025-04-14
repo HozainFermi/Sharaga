@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+h1{
+    text-align: center;
+}
+
+.container{
+    background-color: #fff;
+    border-radius: 15px;
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    box-shadow: 5px 3px 3px rgb(26, 24, 24);
+}
+
+.forma{
+    padding: 70px;
+    
+    display: grid;
+    grid-template-rows: repeat(9, 30px);
+    grid-template-columns: 200px 150px 200px;
+
+}
+
+#anketa{
+    grid-column: 2/3;
+    grid-row: 1;
+    text-align: right;
+}
+
+#name{
+    grid-row: 2;
+    grid-column: 1;
+}
+#nameinput{
+    grid-column: 3;
+    grid-row: 2;
+}
+
+#sex{
+    grid-column: 1;
+    grid-row: 3;
+}
+#sex_selector{
+    grid-column: 3;
+    grid-row: 3;
+}
+
+#education{
+    grid-column: 1;
+    grid-row: 4;
+}
+#education_selector{
+    grid-column: 3;
+    grid-row: 4;
+}
+
+#lang{
+    grid-column: 1;
+    grid-row: 5;
+    font-size: 0.7em;
+    
+}
+#lang_selector{
+    grid-column: 3;
+    grid-row: 5;
+    padding-top: 10px;
+}
+
+#mail{
+    grid-column: 1;
+    grid-row: 6;
+}
+#mailinput{
+    grid-column: 3;
+    grid-row: 6;
+}
+
+#comment{
+    grid-column: 1;
+    grid-row: 7;
+}
+#comment_field{
+
+    grid-column: 3;
+    grid-row: 7 / 9;
+    padding-top: 10px;
+}
+#textfield{
+    width: 90%;
+    height: 90%;
+}
+
+#buttons{
+    grid-column: 3;
+    grid-row: 9;
+}

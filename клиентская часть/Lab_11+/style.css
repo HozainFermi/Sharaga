@@ -1,0 +1,88 @@
+body{
+    color: black;
+    
+}
+header{
+
+    background-color: #ffb9bc;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    
+}
+header h3{
+    vertical-align: middle;
+    padding-top: 2em;
+}
+
+.sidebar{
+    background-color: #f07d00;
+}
+#aside_left{
+    float: left;
+    height: 39em;
+    width: 100px;
+}
+
+#middle{
+    background-color: #81d7df;
+    position: relative;
+    width: 100%;
+    
+}
+
+#aside_right{
+    float: right;
+    height: 39em;
+    width: 150px;
+}
+
+#aside_left h3{
+    transform: rotate(270deg);
+    text-align: center;
+    margin-top: 15em;
+}
+#aside_right h3{
+    transform: rotate(90deg);
+    text-align: center;
+    margin-top: 15em;
+}
+
+
+#foot_left{
+    height: 110px;
+    width: 50%;
+    text-align: center;
+    float: left;
+    background-color: #d9d2f4;
+}
+
+#foot_right{
+    height: 110px;
+    width: 50%;
+    text-align: center;
+    float: right;
+    background-color: #7c6d67;
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+    z-index: 0;
+}
+
+.foot{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    
+
+}
+
+.foot h3 {
+    padding-top: 1em;
+}

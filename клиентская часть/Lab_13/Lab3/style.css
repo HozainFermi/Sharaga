@@ -1,0 +1,25 @@
+
+
+
+#first_table{
+    border-collapse: collapse;
+    margin-left: 40%;
+}
+
+th,
+td {
+  border: 1px solid rgb(0, 0, 0);
+  padding: 8px 10px;
+  gap: 0;
+}
+
+#second_table{
+    border-collapse: collapse;
+    margin-left: 30%;
+}
+
+.tdd{
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 30px;
+}
